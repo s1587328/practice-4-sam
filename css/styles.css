@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background: #FFFFFF;
+   color: #111111;
+   display: grid;
+   grid-template: auto / 1fr 1fr 1fr 1fr 1fr;
+   max-width: 1440px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+p {
+    margin-bottom: 8px;
+}
+
+nav {
+    grid-column: span 5;
+}
+
+header {
+    grid-column: span 5;
+    display: grid;
+    grid-template: auto / 2fr 3fr;
+    /* this split looks better. */
+}
+
+main {
+    grid-column: span 4;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+aside {
+    grid-column: span 1;
+}
+
+footer {
+    grid-column: span 5;
+}
+
+.frame {
+    border: 6px solid #111111;
+}
+
+.pad {
+    padding: 16px;
+}
+
+.bg-white {
+    background: #FFFFFF;
+    color: #111111;
+}
+
+.bg-red {
+    background: #c02033;
+    color: #FFFFFF;
+}
+
+.bg-blue {
+    background: #246e93;
+    color: #FFFFFF;
+}
+
+.bg-yellow {
+    background: #eccd2f;
+    color: #111111;
+}
